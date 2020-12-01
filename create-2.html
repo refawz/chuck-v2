@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Create Event</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,500,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+
+    <!-- Simplebar -->
+    <link href="css/simplebar.css" rel="stylesheet">
+
+    <!-- JQuery UI -->
+    <link href="css/bootstrap-datepicker.css" rel="stylesheet">
+    
+    <!-- Timepicker -->
+    <link href="css/bootstrap-timepicker.css" rel="stylesheet">
+
+    <!-- font-awesome.css -->
+    <link href="css/fontawesome/font-awesome.css" rel="stylesheet">
+    <link href="css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Slick -->
+    <link href="css/slick/slick.css" rel="stylesheet">
+    <link href="css/slick/slick-theme.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">timestack.io</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="#">My Events</a></li>
+            <li class="dropdown">
+              <a href="#" class="user"><span class="text">Chuck G</span> <span class="image"><img src="images/individu-1.png" alt=""></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="edit-profile.html">Edit Profile</a></li>
+                <li><a href="change-password.html">Change Password</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Footer Begin -->
+    <section class="create-event sec-hq-pad">
+      <div class="container">
+        <h1 class="text-center sec-h-pad-b">Weekend Brunch</h1>
+        <div class="text-center">
+          <ul class="steps">
+            <li class="active">
+              <div class="circle-list">
+                <a href="">
+                  <div class="circle">
+                    <div class="circle-inner"></div>
+                  </div>
+                  <div class="text">Event Name</div>
+                </a>
+              </div>
+            </li>
+            <li class="active">
+              <div class="circle-list">
+                <a href="">
+                  <div class="circle">
+                    <div class="circle-inner"></div>
+                  </div>
+                  <div class="text">Your Availability</div>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="circle-list">
+                <a href="">
+                  <div class="circle">
+                    <div class="circle-inner"></div>
+                  </div>
+                  <div class="text">Invite Friends</div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="availability">
+          <div class="wrap">
+            <div class="col-md-12">
+              <h3 class="mar-b-20 text-left">Your Selections</h3>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <a href="" class="availability-link" data-toggle="modal" data-target="#addAvailability">click to add your availability</a>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <a href="" class="availability-link" data-toggle="modal" data-target="#addAvailability">click to add your availability</a>
+            </div>
+            <div class="text-center mar-t-20 btn-wrap">
+              <a href="" class="def-btn btn-disabled mar-r-10">Back</a>
+              <a href="" class="def-btn btn-solid mar-l-10">Next</a>
+            </div>
+
+            <div class="modal fade add-availability-modal" id="addAvailability" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="header">
+                    <h3 class="text-center">Add your Availability</h3>
+                  </div>
+                  <div class="modal-body">
+                    <form action="" class="form-horizontal">
+                      <div class="form-group text-left">
+                        <div class="col-md-12 no-h-padding">
+                          <div class="col-md-6 col-sm-6 col-xs-6">
+                            <b>Date:</b>
+                            <div class="input-group date datepicker">
+                              <input type="text" class="form-control"><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group text-left">
+                        <div class="col-md-6 col-sm-6 col-xs-6 timepicker">
+                          <b>Start Time:</b>
+                          <div class="input-group bootstrap-timepicker timepicker">
+                            <input type="text" class="form-control def-input timepicker-modal">
+                            <span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 timepicker">
+                          <b>End Time:</b>
+                          <div class="input-group bootstrap-timepicker timepicker">
+                            <input type="text" class="form-control def-input timepicker-modal">
+                            <span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-12 text-left">
+                          <b>Event Suggestion</b>
+                        </div>
+                        <div class="col-sm-6 col-xs-6">
+                          <div class="toggle-radio-btn">
+                            <input type="radio" name="event-suggestion"><label onclick="">Category</label>
+                          </div>
+                          <div  class="toggle-radio-btn">
+                            <input type="radio" name="event-suggestion"><label onclick="">Place</label>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-6">
+                          <input type="text" class="def-input form-control">
+                        </div>
+                      </div>
+                      <div class="form-group mar-t-30">
+                        <div class="col-sm-6 col-xs-6 text-right">
+                          <a href="" class="def-btn btn-disabled">Cancel</a></div>
+                        <div class="col-sm-6 col-xs-6 text-left">
+                          <a href="" class="def-btn btn-solid">Add</a>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/bootstrap-timepicker.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

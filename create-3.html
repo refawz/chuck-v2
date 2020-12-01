@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Create Event</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,500,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+
+    <!-- Simplebar -->
+    <link href="css/simplebar.css" rel="stylesheet">
+
+    <!-- JQuery UI -->
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+<!-- Timepicker -->
+    <link href="css/jquery.timepicker.min.css" rel="stylesheet">
+
+    <!-- font-awesome.css -->
+    <link href="css/fontawesome/font-awesome.css" rel="stylesheet">
+    <link href="css/ionicons.min.css" rel="stylesheet">
+    <link href="css/bootstrap-slider.min.css" rel="stylesheet">
+
+    <!-- Slick -->
+    <link href="css/slick/slick.css" rel="stylesheet">
+    <link href="css/slick/slick-theme.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">timestack.io</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="#">My Events</a></li>
+            <li class="dropdown">
+              <a href="#" class="user"><span class="text">Chuck G</span> <span class="image"><img src="images/individu-1.png" alt=""></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="edit-profile.html">Edit Profile</a></li>
+                <li><a href="change-password.html">Change Password</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Footer Begin -->
+    <section class="create-event sec-hq-pad">
+      <div class="container">
+        <div class="content-wrap">
+          <h1 class="text-center sec-h-pad-b">Weekend Brunch</h1>
+          <div class="text-center">
+            <ul class="steps">
+              <li class="active">
+                <div class="circle-list">
+                  <a href="">
+                    <div class="circle">
+                      <div class="circle-inner"></div>
+                    </div>
+                    <div class="text">Event Name</div>
+                  </a>
+                </div>
+              </li>
+              <li class="active">
+                <div class="circle-list">
+                  <a href="">
+                    <div class="circle">
+                      <div class="circle-inner"></div>
+                    </div>
+                    <div class="text">Your Availability</div>
+                  </a>
+                </div>
+              </li>
+              <li class="active">
+                <div class="circle-list">
+                  <a href="">
+                    <div class="circle">
+                      <div class="circle-inner"></div>
+                    </div>
+                    <div class="text">Invite Friends</div>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-8 col-sm-12 col-md-offset-2">
+            <div class="left">
+              <div class="col-md-12 mar-b-10">
+                <b>Invite By:</b>
+              </div>
+              <div class="col-md-12 no-h-padding">
+                <div class="col-md-3 col-sm-3 no-r-padding">
+                  <ul class="nav nav-tabs invite-by-tab-toggle" role="tablist">
+                    <li class="active"><span class="def-btn btn-solid tab-invite-btn-toggle mar-r-5">Email</span></li>
+                    <li><a href="#facebook" data-toggle="modal" data-target="#add-via-facebook" class="def-btn btn-outline tab-invite-btn-toggle mar-l-5">Facebook</a></li>
+                  </ul>
+                </div>
+                <div class="tab-invite-by">
+                  <div class="col-md-9 col-sm-9 col-md-offset-3 col-sm-offset-3 email-invite">
+                    <form class="form-horizontal">
+                      <div class="form-group">
+                        <div class="col-md-8 col-sm-8 col-xs-8 no-r-padding">
+                          <input type="text" class="def-input form-control" placeholder="Enter Email Address">
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-xs-4">
+                          <a href="" class="def-btn btn-solid btn-green btn-fullwidth btn-similar-pad">Add</a>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="modal fade add-via-facebook-modal" id="add-via-facebook" role="dialog">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="text-center mar-b-15">
+                          <h3>Add friends via Facebook</h3>
+                        </div>
+                        <div class="modal-body">
+                          <div class="add-member-list"  data-simplebar-direction="vertical">
+                            <form action="" class="form-horizontal">
+                              <div class="item">
+                                <input type="checkbox" class="checkbox-facebook">
+                                <span class="circle">
+                                  <img src="images/individu-1.png" alt="">
+                                </span>
+                                <span class="text">Bob Sanders</span>
+                              </div>
+                              <div class="item">
+                                <input type="checkbox" class="checkbox-facebook">
+                                <span class="circle">
+                                  <img src="images/individu-1.png" alt="">
+                                </span>
+                                <span class="text">Bob Sanders</span>
+                              </div>
+                              <div class="item">
+                                <input type="checkbox" class="checkbox-facebook">
+                                <span class="circle">
+                                  <img src="images/individu-1.png" alt="">
+                                </span>
+                                <span class="text">Bob Sanders</span>
+                              </div>
+                              <div class="item">
+                                <input type="checkbox" class="checkbox-facebook">
+                                <span class="circle">
+                                  <img src="images/individu-1.png" alt="">
+                                </span>
+                                <span class="text">Bob Sanders</span>
+                              </div>
+                              <div class="item">
+                                <input type="checkbox" class="checkbox-facebook">
+                                <span class="circle">
+                                  <img src="images/individu-1.png" alt="">
+                                </span>
+                                <span class="text">Bob Sanders</span>
+                              </div>
+                              <div class="item">
+                                <input type="checkbox" class="checkbox-facebook">
+                                <span class="circle">
+                                  <img src="images/individu-1.png" alt="">
+                                </span>
+                                <span class="text">Bob Sanders</span>
+                              </div>
+                              <div class="item">
+                                <input type="checkbox" class="checkbox-facebook">
+                                <span class="circle">
+                                  <img src="images/individu-1.png" alt="">
+                                </span>
+                                <span class="text">Bob Sanders</span>
+                              </div>
+                              <div class="item">
+                                <input type="checkbox" class="checkbox-facebook">
+                                <span class="circle">
+                                  <img src="images/individu-1.png" alt="">
+                                </span>
+                                <span class="text">Bob Sanders</span>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="text-center mar-t-30">
+                            <a href="" class="def-btn btn-disabled mar-r-10" data-dismiss="modal">close</a>
+                            <a href="" class="def-btn btn-solid mar-l-10">Add</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="text-left">
+                  <strong class="mar-b-20 sec-q-pad-t header">Your Invitations</strong>
+                </div>
+              </div>
+              <div class="add-member-list-cards"  data-simplebar-direction="vertical">
+                <div class="item">
+                  <div class="head-content">
+                    <span class="name">bobsmith@gmail.com</span>
+                    <a href="" class="def-btn btn-del"><i class="fa fa-trash"></i></a>
+                  </div>
+                  <div class="main-content">
+                    <span class="circle">
+                      <img src="images/individu-1.png" alt="">
+                    </span>
+                    <span class="text">bobsmith@gmail.com</span>
+                  </div>
+                </div>
+                
+                <div class="item">
+                  <div class="head-content">
+                    <span class="name">Bill Gates</span>
+                    <a href="" class="def-btn btn-del"><i class="fa fa-trash"></i></a>
+                  </div>
+                  <div class="main-content">
+                    <span class="circle">
+                      <img src="images/individu-1.png" alt="">
+                    </span>
+                    <span class="text">Bill Gates</span>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="head-content">
+                    <span class="name">bobsmith@gmail.com</span>
+                    <a href="" class="def-btn btn-del"><i class="fa fa-trash"></i></a>
+                  </div>
+                  <div class="main-content">
+                    <span class="circle">J</span>
+                    <span class="text">john@example.com</span>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="head-content">
+                    <span class="name">bobsmith@gmail.com</span>
+                    <a href="" class="def-btn btn-del"><i class="fa fa-trash"></i></a>
+                  </div>
+                  <div class="main-content">
+                    <span class="circle">J</span>
+                    <span class="text">john@example.com</span>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="head-content">
+                    <span class="name">bobsmith@gmail.com</span>
+                    <a href="" class="def-btn btn-del"><i class="fa fa-trash"></i></a>
+                  </div>
+                  <div class="main-content">
+                    <span class="circle">J</span>
+                    <span class="text">john@example.com</span>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="head-content">
+                    <span class="name">bobsmith@gmail.com</span>
+                    <a href="" class="def-btn btn-del"><i class="fa fa-trash"></i></a>
+                  </div>
+                  <div class="main-content">
+                    <span class="circle">J</span>
+                    <span class="text">john@example.com</span>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center mar-t-20">
+                <a href="" class="def-btn btn-solid btn-disabled mar-r-5">Back</a>
+                <a href="" class="def-btn btn-solid btn-green mar-l-5">Create Event</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer End -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-slider.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
